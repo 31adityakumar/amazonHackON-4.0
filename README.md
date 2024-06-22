@@ -8,8 +8,7 @@ reviews, and counterfeit products throughout their lifecycle on the Amazon platf
 
 Implementation:- 
 1. Resolving Counterfeit Issue
-2. Resolving Enroute Damage
-3. Resolving Enroute swaps
+2. Resolving Enroute Damage and Swaps
 
 ## Git Commands to Clone 
 
@@ -17,8 +16,7 @@ Implementation:-
 2. Open GitBash or Terminal 
 
 ```
-[git clone git@github.com:iamakhileshmishra/amazon-hackon.git
-](https://github.com/31adityakumar/amazonHackON-4.0)```
+(https://github.com/31adityakumar/amazonHackON-4.0)```
 
 
 ## After cloning Your Folder will have two sub Folders 
