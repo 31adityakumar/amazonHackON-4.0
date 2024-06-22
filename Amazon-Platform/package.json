@@ -1,0 +1,39 @@
+{
+  "name": "amazon",
+  "version": "1.0.0",
+  "description": "MERN Ecommerce APP",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "react-bootstrap": "^2.10.3",
+    "react-paypal-button-v2": "^2.6.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}

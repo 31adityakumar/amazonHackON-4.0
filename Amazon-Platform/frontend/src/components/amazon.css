@@ -1,0 +1,21 @@
+.bg-orange{
+  background-color: rgb(255,153,0);
+}
+.black{
+  background-color: rgb(19, 25, 33);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  position: static;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s ease-out;
+  z-index: 1000;
+}
+.link{
+  color: rgb(255,153,0);
+}
+.link:hover{
+  color: rgb(255,153,0);
+}
