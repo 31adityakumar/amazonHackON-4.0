@@ -2,9 +2,10 @@
 
  The integrity and trustworthiness of product ratings and reviews, as well as the authenticity of products on Amazon, are critical 
 to maintaining customer trust and satisfaction. Fraudulent reviews and counterfeit products pose significant challenges, 
-undermining the credibility of the platform and harming both customers and legitimate sellers. Therefore, the primary objective 
-is to develop AI-powered solutions that enhance the detection and prevention of fraudulent activities related to product ratings, 
-reviews, and counterfeit products throughout their lifecycle on the Amazon platform.
+undermining the credibility of the platform and harming both customers and legitimate sellers.
+ The solution involves tracking product returns, using large language models (LLMs) to blocklist sellers, employing machine 
+learning for review authenticity, and leveraging APIs for authentication. This method will enhance the integrity of product 
+ratings and reviews and strengthen counterfeit detection on the Amazon platform.
 
 Implementation:- 
 1. Resolving Counterfeit Issue
